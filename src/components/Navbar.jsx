@@ -101,6 +101,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
     "Electronics",
     "Toys",
     "Fashion",
+    "Mouse",
   ];
   return (
     <>
@@ -108,7 +109,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container-fluid">
             <a className="navbar-brand" href="http://localhost:8080/swagger-ui/index.html">
-             Swagger UI
+           Amazon
             </a>
             <button
               className="navbar-toggler"
